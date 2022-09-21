@@ -1,15 +1,15 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
+name: BumBall-Maker
+display_name: SeungBin Nam, BumBall-Maker
 position: Chief Editor
 bio: Just a developer.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+github_username: BumBall-Maker
+facebook_username: BumBall-Maker
+twitter_username: BumBall-Maker
+instagram_username: BumBall-Maker
+linkedin_username: BumBall-Maker
+medium_username: BumBall-Maker
 ---
 
