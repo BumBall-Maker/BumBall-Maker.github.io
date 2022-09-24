@@ -18,23 +18,20 @@ layout: main
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url({{ featured.image }})">
+        <section class="hero" style="background-image: url(https://user-images.githubusercontent.com/87287709/191934589-21f9db08-902e-43af-a5f0-c770d6e1ae1e.jpg)">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
-                <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">
-                    {% if site.date_format == nil %}
-                        {{ featured.date | date: "%m.%d.%Y" }}
-                    {% else %}
-                        {{ featured.date | date: site.date_format }}
-                    {% endif %}
-                </time>
-                <h1 class="title">{{ featured.title }}</h1>
+                <div class="date">
+                 Hello! My Name is SeungBin Nam  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+                </div>
+                <h1 class="title">Unity Programmer <br>
+                & Technical Artist</h1>
                 <p class="description">{{ featured.subtitle }}</p>
                 <div class="buttons">
                     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="button">
                         <svg><use xlink:href="#icon-read"></use></svg>
-                        <span>{{ site.translations.button.read_now | default: "Read Now" }}</span>
+                        <span>{{ site.translations.button.read_now | default: "ABOUT ME" }}</span>
                     </a>
                 </div>
             </div>

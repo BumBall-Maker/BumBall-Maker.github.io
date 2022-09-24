@@ -2,8 +2,8 @@
 layout: author
 photo: /assets/img/uploads/profile.png
 name: BumBall-Maker
-display_name: SeungBin Nam, BumBall-Maker
-position: Chief Editor
+display_name: SeungBin Nam, <br> BumBall-Maker
+position: Unity Developer & TA
 bio: Just a developer.
 github_username: BumBall-Maker
 facebook_username: BumBall-Maker
